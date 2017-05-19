@@ -1,0 +1,29 @@
+.shoplist{
+    width: 600px;
+    height: 50px auto;
+    font-size: 12px;
+    margin:auto;
+    border: 1px solid red;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+li{
+    width: 200px;
+    height: 24px;
+    line-height: 24px;
+    float: left;
+    text-align: center;
+}
+.showmore a{
+    display: block;
+    width: 150px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    margin: auto;
+    border: 1px solid #aaa;
+    clear:both;
+}

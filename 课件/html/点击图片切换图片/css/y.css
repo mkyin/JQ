@@ -1,0 +1,33 @@
+body{
+	margin: auto;
+}
+.tu{
+	float: left;
+}
+#header{
+	width: 800px;
+	margin: auto;
+}
+/*
+
+1.Web 前端三要素：
+	1.HTML（骨架）
+	2.css （样式）
+	3.Javascript（行为）
+2.DOM 文档对象模型（JS控制部分）：
+	1.元素节点（标签）
+	2.属性节点（src class）
+	3.文本节点（内容）
+3.JQ安装与使用：
+	
+4.交互效果的原理
+	1.事件的发生对象（图片）
+	2.事件的发生类型（点击事件）
+	3.事件影响的对象（让谁发生改变）
+	4.事件影响的结果（最后怎么样了）
+
+JQ
+		$(document){文档}.ready(准备下载)
+		attr(改变属性节点)
+		click（单击）
+ */

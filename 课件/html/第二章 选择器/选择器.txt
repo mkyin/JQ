@@ -1,0 +1,12 @@
+$(".one+div") 相当于：$(".one").next("div")
+
+$(".one~div") 相当于：$(".one").nextAll("div")
+
+$(".one").nextUntil("div")到div结束
+
+同理还有：
+$(".one").prev("div") class为one的上一个元素
+
+$(".one").prevAll("div") class为one的上面所有div元素
+
+$(".one").nextUntil("div") 到div结束

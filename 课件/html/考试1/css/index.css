@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.containt{
+    width: 1366px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.banner{
+    width: 1366px;
+    height: 363px;
+    margin: 0 auto;
+}
+.na{
+    width: 1366px;
+    height: 50px;
+    background-color: #c20000;
+    font-family: 华文行楷;
+    font-size: 18px;
+}
+.right{
+    float: right;
+    color: aliceblue;
+    cursor: pointer;
+    margin-right: 11px;
+}
+.na ul{
+    list-style: none;
+    margin-left: 25px;
+    padding-top: 17px;
+}
+.na ul li{
+    float: left;
+    height: 50px;
+}
+.nav1 ul li a:hover{
+    color: #000;
+}
+.na ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 49px;
+}
+.nav1{
+    background-color: darkcyan;
+    border: 1px solid #fff;
+    position: absolute;
+    width: 430px;
+    height: 180px;
+    margin-top: 10px;
+    display: none;
+    opacity: 0.8;
+    z-index: 999;
+    border-radius: 5px;
+    font-family: 华文行楷;
+}
+.nav1 ul{
+    margin: 0px;
+}
+.nav1 li{
+    margin-top: 5px;
+}
+.banner1{
+    clear: both;
+}
+.banner1 img{
+    position: absolute;
+    display: none;
+    widows: 100%;
+    margin-top: -20px;
+}
+.tip{
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    background: #c20000;
+    position: absolute;
+    right: 70px;
+    display:none;
+    opacity: 0;
+    font-family: 华文行楷;
+}
+#toolbar{
+    position: fixed;
+    top:280px;
+    right: 5px;
+}
+#toolbar ul li{
+    list-style: none;
+    width: 35px;
+    height: 35px;
+    background: url("../images/hert_03.jpg");
+    cursor: pointer;
+    position: relative;
+}
+#toolbar ul .item1{
+    background-position: -35px 0;
+}
+.bar{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: -8px;
+    top:0px;
+    color: #c20000;
+    font-size: 16px;
+}
+p#top{
+    position:fixed;
+    display: none;
+    bottom: 100px;
+    right: 80px;
+    width: 58px;
+    height: 55px;
+}
+p#top a{
+    text-align: center;
+    text-decoration: none;
+    color: #d1d1d1;
+    display: block;
+    width: 64px;
+}
+p#top a:hover{
+    color: #979797;
+}
+.main,.footer{
+    width: 1206px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.main img,.footer img{
+    margin: 0 auto;
+}

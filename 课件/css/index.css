@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+li{
+	list-style:none;
+	}
+a{
+	text-decoration:none;
+	}
+img{	
+	border:none;
+	}
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+	}
+#footer{
+	height:118px;
+	background:url(../images/footer_bj_02.jpg) repeat-x;
+	}
+.footer_inner{
+	width:950px;
+	height:118px;
+	margin:0 auto;
+	}
+#icon{
+	height:35px;
+	background:url(../images/icon-bj_03.jpg) repeat-x;
+	}
+#icon>ul{
+	width:950px;
+	height:35px;
+	margin:0 auto;
+	}
+.icon_top>li{
+	float:left;
+	padding-left:16px;
+	position:relative;
+	display:block;
+	}
+.icon_top>li>.more{
+	background:url(../images/icon_top_bj_05.jpg) no-repeat right top;
+	padding-right:20px;
+	display:block;
+	}
+.icon_top li a{
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:35px;
+	}
+.icon_bot{
+	background-color:#333;
+	border:1px #111 solid;
+	border-radius:0 0 4px 4px;
+	width:160px;
+	position:absolute;
+	left:0;
+	top:35px;;
+	display:none;
+	}
+.icon_bot li{
+	background:url(../images/icon_bot_bj_06.jpg) no-repeat 10px center;
+	padding-left:20px;
+	border-bottom:1px #444 solid;
+	border-top:1px #252525 solid;
+	}
+.icon_bot li:hover{
+	background-color:#2a2a2a;
+	}
+
